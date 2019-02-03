@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-progress-bar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A scroll progress bar component for React",
   "main": "src/index.js",
   "peerDependencies": {
