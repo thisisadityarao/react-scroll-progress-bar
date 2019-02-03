@@ -1,0 +1,24 @@
+{
+  "name": "react-scroll-progress-bar",
+  "version": "1.0.0",
+  "description": "A scroll progress bar component for React",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ad1tyara0/react-scroll-progress-bar.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "progress-bar"
+  ],
+  "author": "Aditya Rao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ad1tyara0/react-scroll-progress-bar/issues"
+  },
+  "homepage": "https://github.com/ad1tyara0/react-scroll-progress-bar#readme"
+}

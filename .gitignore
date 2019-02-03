@@ -1,0 +1,10 @@
+### macOS ###
+# General
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
+
+# More...
+node_modules/
+dist/
