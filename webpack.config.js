@@ -1,10 +1,14 @@
 const path = require("path");
+const pkg = require("./package.json");
+
+const libraryName = pkg.name;
 
 module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
   output: {
     path: path.join(__dirname, "build"),
     filename: "index.js",
+    library: libraryName,
     libraryTarget: "commonjs2"
   },
   module: {
@@ -19,6 +23,18 @@ module.exports = {
     ]
   },
   externals: {
-    react: "commonjs react" // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
+    // Don't bundle react or react-dom
+    react: {
+      commonjs: "react",
+      commonjs2: "react",
+      amd: "React",
+      root: "React"
+    },
+    "react-dom": {
+      commonjs: "react-dom",
+      commonjs2: "react-dom",
+      amd: "ReactDOM",
+      root: "ReactDOM"
+    }
   }
 };
