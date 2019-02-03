@@ -4,7 +4,7 @@
   "description": "A scroll progress bar component for React",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/ad1tyara0/react-scroll-progress-bar/issues"
   },
-  "homepage": "https://github.com/ad1tyara0/react-scroll-progress-bar#readme"
+  "homepage": "https://github.com/ad1tyara0/react-scroll-progress-bar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
 }
