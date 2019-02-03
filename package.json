@@ -15,7 +15,10 @@
     "react-component",
     "progress-bar"
   ],
-  "author": "Aditya Rao",
+  "author": {
+    "name": "Aditya Rao",
+    "url": "https://www.adityarao.in/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ad1tyara0/react-scroll-progress-bar/issues"
