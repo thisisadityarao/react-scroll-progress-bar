@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "A scroll progress bar component for React",
   "main": "index.js",
+  "peerDependencies": {
+    "react": "^16.7.0"
+  },
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
