@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
   output: {
@@ -12,6 +14,18 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              modules: true
+            }
+          }
+        ]
       }
     ]
   }
