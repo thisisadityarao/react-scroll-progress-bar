@@ -21,7 +21,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <ScrollUpButton />
+                <ProgressBar />
                 //This is all you need to get the default view working
             </div>
         );
