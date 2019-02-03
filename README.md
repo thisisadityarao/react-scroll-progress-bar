@@ -42,10 +42,9 @@ export default class App extends React.Component {
         return (
             <div>
                 <ProgressBar height="6px" bgcolor="#000" />
-                    // Here you can add any react component or jsx
-                    // Add ProgressBar at your top level component or Root component.
-                    // Change height and background-color by setting respective props.
-                </ProgressBar>
+                  // Here you can add any react component or jsx
+                  // Add ProgressBar at your top level component or Root component.
+                  // Change height and background-color by setting respective props.
             </div>
         );
     }
