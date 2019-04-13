@@ -3,4 +3,3 @@ node_modules
 .babelrc
 webpack.config.js
 .gitignore
-.eslintrc

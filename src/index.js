@@ -10,7 +10,7 @@ const scrollStyle = (width, height = "3", bgcolor = "#F43059", duration = "1") =
   backgroundColor: `${bgcolor}`,
   height: `${height}s`,
   width: `${width}`,
-  transitionProperty: `width`,
+  transitionProperty: `all`,
   transitionDuration: `${duration}s`,
   transitionTimingFunction: `ease`,
 });
