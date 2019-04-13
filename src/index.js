@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 
-const scrollStyle = (width, height = "4", bgcolor = "#F43059", duration = "0.2") => ({
+const scrollStyle = (width, height = "3", bgcolor = "#F43059", duration = "1") => ({
   margin: 0,
   padding: 0,
   position: "fixed",

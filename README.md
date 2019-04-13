@@ -55,16 +55,16 @@ export default class App extends React.Component {
 
 ```javascript
     <ProgressBar
-      height="4"
+      height="3"
       bgcolor="#F43059"
-      duration="0.2"
+      duration="1"
     />
 ```
 
-height -- Set height of progress bar. Default height is `4px`. Pass the number not the unit. Unit is `px`
+height -- Set height of progress bar. Default height is `3px`. Pass the number not the unit. Unit is `px`
 
 bgcolor -- Set background-color of progress bar. Default background-color is `#F43059`.
 
-duration -- Set timing-duration for transition property. Default is `0.2s`. Pass the number not the unit. Unit is `s`
+duration -- Set timing-duration for transition property. Default is `1s`. Pass the number not the unit. Unit is `s`
 
 ----
