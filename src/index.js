@@ -8,11 +8,11 @@ const scrollStyle = (width, height = "3", bgcolor = "#F43059", duration = "1") =
   top: 0,
   zIndex: "99",
   backgroundColor: `${bgcolor}`,
-  height: `${height}s`,
+  height: `${height}px`,
   width: `${width}`,
-  transitionProperty: `all`,
+  transitionProperty: `width`,
   transitionDuration: `${duration}s`,
-  transitionTimingFunction: `ease`,
+  transitionTimingFunction: `ease-out`,
 });
 
 class ProgressBar extends Component {
