@@ -7,8 +7,6 @@ React Component for a fixed scroll progress bar. The progress bar can use the de
 npm install react-scroll-progress-bar
 ```
 
-----
-
 ## Usage
 
 ### Default Progress Bar:
@@ -41,7 +39,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <ProgressBar height="6px" bgcolor="#000" />
+                <ProgressBar height="6" bgcolor="#000" duration="0.2" />
                   // Here you can add any react component or jsx
                   // Add ProgressBar at your top level component or Root component.
                   // Change height and background-color by setting respective props.
@@ -57,13 +55,16 @@ export default class App extends React.Component {
 
 ```javascript
     <ProgressBar
-      height="4px"
+      height="4"
       bgcolor="#F43059"
+      duration="0.2"
     />
 ```
 
-height -- Set height of progress bar. Default height is `4px`.
+height -- Set height of progress bar. Default height is `4px`. Pass the number not the unit. Unit is `px`
 
 bgcolor -- Set background-color of progress bar. Default background-color is `#F43059`.
+
+duration -- Set timing-duration for transition property. Default is `0.2s`. Pass the number not the unit. Unit is `s`
 
 ----

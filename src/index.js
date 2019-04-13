@@ -1,16 +1,16 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 
-const scrollStyle = (width, height = "4px", bgcolor = "#F43059") => ({
+const scrollStyle = (width, height = "4", bgcolor = "#F43059", duration = "0.2") => ({
   margin: 0,
   padding: 0,
   position: "fixed",
   top: 0,
   zIndex: "99",
   backgroundColor: `${bgcolor}`,
-  height: `${height}`,
+  height: `${height}px`,
   width: `${width}`,
-  transition: `${width} 0.2s ease-out`
+  transition: `${width} ${duration}s ease`,
 });
 
 class ProgressBar extends Component {
@@ -54,13 +54,14 @@ class ProgressBar extends Component {
 
   render() {
     const { width } = this.state;
-    const { height, bgcolor } = this.props;
-    return (<div style={scrollStyle(width, height, bgcolor)} />);
+    const { height, bgcolor, duration } = this.props;
+    return <div style={scrollStyle(width, height, bgcolor, duration)} />;
   }
 }
 
 ProgressBar.propTypes = {
   height: PropTypes.number,
+  duration: PropTypes.number,
   color: PropTypes.string.isRequired
 };
 
