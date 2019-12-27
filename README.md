@@ -1,4 +1,5 @@
 # react-scroll-progress-bar
+
 React Component for a fixed scroll progress bar. The progress bar can use the default color and height, or can be customized by any user provided height and color.
 
 ## Install
