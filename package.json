@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/ad1tyara0/react-scroll-progress-bar#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
-    "webpack": "^4.41.3",
+    "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
