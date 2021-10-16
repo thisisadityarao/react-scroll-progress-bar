@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 
-const scrollStyle = (width, height = "3", bgcolor = "#F43059", duration = "1") => ({
+const scrollStyle = (width, height = "3", bgcolor = "#F43059", duration = "1", top = "0", zIndex = "99") => ({
   margin: 0,
   padding: 0,
   position: "fixed",
-  top: 0,
-  zIndex: "99",
+  top: `${top}px`,
+  zIndex: `${zIndex}`,
   backgroundColor: `${bgcolor}`,
   height: `${height}px`,
   width: `${width}`,
@@ -64,7 +64,9 @@ class ProgressBar extends Component {
 ProgressBar.propTypes = {
   height: PropTypes.number,
   duration: PropTypes.number,
-  color: PropTypes.string.isRequired
+  color: PropTypes.string.isRequired,
+  top: PropTypes.number,
+  zIndex: PropTypes.number
 };
 
 export default ProgressBar;

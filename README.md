@@ -59,6 +59,8 @@ export default class App extends React.Component {
       height="3"
       bgcolor="#F43059"
       duration="1"
+      top="0"
+      zIndex="99"
     />
 ```
 
@@ -67,5 +69,9 @@ export default class App extends React.Component {
 **bgcolor** -- Set background-color of progress bar. Default background-color is `#F43059`.
 
 **duration** -- Set timing-duration for transition property. Default is `1s`. Pass the number not the unit. Unit is `s`
+
+**top** -- Set the top value. Default is `0`. Pass the number not the unit. Unit is `px`
+
+**zIndex** -- Set the zIndex value. Default is `99`. Pass a number. 
 
 ----
