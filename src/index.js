@@ -56,8 +56,8 @@ class ProgressBar extends Component {
 
   render() {
     const { width } = this.state;
-    const { height, bgcolor, duration } = this.props;
-    return <div style={scrollStyle(width, height, bgcolor, duration)} />;
+    const { height, bgcolor, duration, top, zIndex } = this.props;
+    return <div style={scrollStyle(width, height, bgcolor, duration, top, zIndex)} />;
   }
 }
 
