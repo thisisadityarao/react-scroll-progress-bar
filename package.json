@@ -37,7 +37,7 @@
     "url": "https://github.com/thisisaditya/react-scroll-progress-bar/issues"
   },
   "homepage": "https://github.com/thisisaditya/react-scroll-progress-bar#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
