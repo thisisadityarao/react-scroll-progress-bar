@@ -2,18 +2,27 @@
   "name": "react-scroll-progress-bar",
   "version": "1.2.3",
   "description": "A scroll progress bar component for React",
-  "main": "build/index.js",
-  "peerDependencies": {
-    "react": "^17.0.1"
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/react-scroll-progress-bar.umd.js",
+  "module": "./dist/react-scroll-progress-bar.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-scroll-progress-bar.es.js",
+      "require": "./dist/react-scroll-progress-bar.umd.js"
+    }
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
-    "test": "echo \"No test specified\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ad1tyara0/react-scroll-progress-bar.git"
+    "url": "git+https://github.com/thisisaditya/react-scroll-progress-bar.git"
   },
   "keywords": [
     "react",
@@ -21,25 +30,21 @@
     "progress-bar"
   ],
   "author": {
-    "name": "Aditya Rao",
-    "url": "https://www.adityarao.in/"
+    "name": "Aditya Rao"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ad1tyara0/react-scroll-progress-bar/issues"
+    "url": "https://github.com/thisisaditya/react-scroll-progress-bar/issues"
   },
-  "homepage": "https://github.com/ad1tyara0/react-scroll-progress-bar#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/preset-env": "^7.12.16",
-    "@babel/preset-react": "^7.12.13",
-    "webpack": "^5.22.0",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
-  },
+  "homepage": "https://github.com/thisisaditya/react-scroll-progress-bar#readme",
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0"
   }
 }
