@@ -1,5 +1,4 @@
 node_modules
 .editorconfig
-.babelrc
-webpack.config.js
+vite.config.js
 .gitignore
