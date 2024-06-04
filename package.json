@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thisisaditya/react-scroll-progress-bar.git"
+    "url": "git+https://github.com/thisisadityarao/react-scroll-progress-bar.git"
   },
   "keywords": [
     "react",
@@ -35,9 +35,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thisisaditya/react-scroll-progress-bar/issues"
+    "url": "https://github.com/thisisadityarao/react-scroll-progress-bar/issues"
   },
-  "homepage": "https://github.com/thisisaditya/react-scroll-progress-bar#readme",
+  "homepage": "https://github.com/thisisadityarao/react-scroll-progress-bar#readme",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
