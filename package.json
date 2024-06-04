@@ -19,7 +19,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
